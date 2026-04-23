@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+      Author: Nefertiti Mahluli-Forde
+      Date:   Apr 17 2026
+   -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskAway | Task Manager</title>
+
+    <link rel="stylesheet" href="styles.css">
+  
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+      <div class="pageheader">  
+        <img src="taskaway-logo.png" alt="TaskAway logo" class="logo">
+        <h1><span>TaskAway</span> Dashboard</h1>
+      </div>
+
+        <!-- Task creation form -->
+        <form id="taskform">
+            <input type="text" id="taskname" placeholder="Enter task name..." required>
+
+            <select id="taskpriority">
+                <option value="High">High Priority</option>
+                <option value="Medium" selected>Medium Priority</option>
+                <option value="Low">Low Priority</option>
+            </select>
+
+            <label>
+                <input type="checkbox" id="taskimportant"> Mark as Important
+            </label>
+
+            <button type="submit">Add Task</button>
+        </form>
+
+        <!-- Tasks are added here by JavaScript -->
+        <div id="taskmanager"></div>
+    </div>
+
+</body>
+</html>
