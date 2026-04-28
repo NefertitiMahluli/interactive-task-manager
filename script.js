@@ -2,7 +2,7 @@
 /*    TaskAway Task Manager - Final Project
       WEB115 - Web Markup and Scripting
       Author: Nefertiti Mahluli-Forde
-      Date:   Apr 17 2026
+      Date:   Apr 27 2026
 */
 
 // Keeps track of the next task ID
